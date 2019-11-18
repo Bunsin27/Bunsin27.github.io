@@ -1,0 +1,46 @@
+<HTml>
+
+<head>
+    <title>R-M-Giphy</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Link to Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 style="color: rgb(0, 0, 0); font-size: 80px; ">RICK AND MORTY </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="display-buttons"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <form id="form">
+                    <label for="user-input">The Weird World Of "Rick and Morty" search anything Rick and Morty
+                    </label><br>
+                    <input type="text" id="user-input">
+                    <input id="submitPress" type="submit" value="Submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="display-images"></div>
+        </div>
+
+    </div>
+
+    <script src="giphy.js"></script>
+</body>
+
+</html>
